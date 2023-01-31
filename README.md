@@ -38,17 +38,7 @@ add soy sauce, cook for 2 mins
 
 with spatula mix items
 
-move ingredients to half of pan
-
-crack egg into empty half of pan
-
-scramble egg
-
-when egg is fully cooked mixed together with rest of ingredients
-
 sample to see if seasoned adequately
-
-cook for another 5 mins
 
 move ingredients to plate
 

@@ -1,58 +1,70 @@
-PROGRAM	make shrimp fried rice 
+START: START THE PROGRAM shrimp fried rice 
 
-Ingredients 
-raw defrosted deveined tail-off shrimp(shrimp): 10
-frozen mixed vegetables: 0.5 cup
-cooked brown rice: 1 cup
-olive oil: 2 tablespoons
-Sriracha Seasoning: 2 tablespoons
-salt: 1 tablespoon
-pepper: 1 tablespoon
-soy sauce: 4 tablespoons
-raw uncracked egg: 1
-plate: 1
-pan: 1
-spatula: 1
+INIT gather ingredients 
 
-heat pan, when pan hot
+Variables: Const object=
 
-add olive oil
+{raw defrosted deveined tail-off shrimp: 10,
+frozen mixed vegetables: 0.5 cup,
+cooked brown rice: 1 cup,
+olive oil: 2 tablespoons,
+Sriracha Seasoning: 2 tablespons,
+salt: 1 tablespoon,
+pepper: 1 tablespoon,
+soy sauce: 4 tablespoons,
+plate: 1,
+pan: 1,
+spatula: 1}
 
-add shrimp
+FUNCTION 
+stir()
+plating()
+add()
+cook()
 
-with spatula mix item around
 
-when shrimp starts to change color add frozen veg
+IF (pan == hot)
+    add(olive oil)
+    ELSE (wait till pan == heat)  
 
-with spatula mix items
 
-when frozen veg starts to soften add Sriracha seasoning, salt and pepper
+IF (olive oil == hot)
+    add(shrimp)
+    ELSE (wait till olive oil == hot)
 
-with spatula mix items
+stir()
 
-add rice, cook for 2 mins
+IF (shrimp == cooked)
+    add frozen mixed vegetables
+    ELSE (wait till frozen mixed vegetables == cooked)
 
-with spatula mix items
+stir()
 
-add soy sauce, cook for 2 mins
+add(seasiongs)
 
-with spatula mix items
+stir()
 
-move ingredients to half of pan
+add(rice) 
 
-crack egg into empty half of pan
+cook()
 
-scramble egg
+stir()
 
-when egg is fully cooked mixed together with rest of ingredients
+add(soy sauce)
 
-sample to see if seasoned adequately
+cook()
 
-cook for another 5 mins
+stir()
 
-move ingredients to plate
+IF (taste == adequate)
+    plate()
+    ELSE (season)
+
+cook()
+
+Plate()
 
 enjoy!
 
 
-END
+END THE PROGRAM
