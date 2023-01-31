@@ -9,8 +9,10 @@ Sriracha Seasoning: 2 tablespoons
 salt: 1 tablespoon
 pepper: 1 tablespoon
 soy sauce: 4 tablespoons
-raw egg: 1
-plate
+raw uncracked egg: 1
+plate: 1
+pan: 1
+spatula: 1
 
 heat pan, when pan hot
 
@@ -18,13 +20,23 @@ add olive oil
 
 add shrimp
 
-when shrimp start to change color add frozen veg
+with spatula mix item around
 
-when frozen veg start to soften add Sriracha Seasoning, salt and pepper
+when shrimp starts to change color add frozen veg
+
+with spatula mix items
+
+when frozen veg starts to soften add Sriracha seasoning, salt and pepper
+
+with spatula mix items
 
 add rice, cook for 2 mins
 
+with spatula mix items
+
 add soy sauce, cook for 2 mins
+
+with spatula mix items
 
 move ingredients to half of pan
 
