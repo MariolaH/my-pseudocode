@@ -47,11 +47,11 @@ Dry Seasonings:
 - Salt: 1 tablespoon
 - Pepper: 1 tablespoon
 
-
+COMBINE: with spatula
 
 ```
 
-COMBINE: with spatula
+
 
 
 ---
@@ -68,35 +68,27 @@ STEP 1 CHECK GROCERIES
         If True
             PROCEED
         IF False
-            STOP
-
+            STOP       
 
 ```
 ```
 
 STEP 2 PREPARE ENVIRONMENT 
 
-
-    IF Space === clean
+    IF cleanSpace === True
         PROCEED
-    ELSE
+    IF cleanSpace === False
         STOP
-
-
 
 ```
 ```
 
 STEP 3 TURN STOVE ON
 
-    1. put pan on stove element
+    1. Put pan on stove element
 
-    2. turn stove on to medium
-
-    3. let pan heat up for 2 mins
-
-
-
+    2. Turn stove on to medium
+    
 
 ```
 
@@ -106,23 +98,22 @@ STEP 3 TURN STOVE ON
 
 STEP 4 PAN
 
- IF panHot === add olive oil
+ IF hotPan === True
         PROCEED
-    ELSE
+ IF hotPan === False
         STOP
 
-
 ```
-
 ```
 
 STEP 5 OLIVE OIL
 
-    IF oliveOil === Hot
-            PROCEED
-    ELSE
-            STOP     
+    1. Add olive oil
 
+    IF hotOliveOil === True
+            PROCEED
+    IF hotOliveOil === False
+            STOP     
 
 ```
 
@@ -136,7 +127,7 @@ STEP 6 PROTEIN
 
     3. When shrimp changes from clear to white 
 
-    4. proceed
+    4. PROCEED
 
 ```
 
@@ -150,7 +141,7 @@ STEP 7 VEGETABLES
 
     3. When frozen vegetables starts to soften 
 
-    Proceed
+    4. PROCEED
 
 ```
 
@@ -178,7 +169,7 @@ STEP 9 CARB
 
     3. Combine with spatula
 
-    4. Proceed
+    4. PROCEED
 
 ```
 ```
@@ -206,18 +197,17 @@ STEP 11 EGG
 
     3. Scramble till not runny 
 
-    4. Proceed
+    4. PROCEED
 
 ```
 ```
 
 STEP 12 COMBINE
 
-    IF ingredients === combined
+    IF combineIngredients === True
             PROCEED
-        ELSE
+    IF combineIngredients === False
             STOP 
-
 
 ```
 
@@ -245,7 +235,7 @@ STEP 14 PLATE
 
     4. place pan on cold stove element
 
-    5. proceed         
+    5. PROCEED        
 
 ```
 ```
