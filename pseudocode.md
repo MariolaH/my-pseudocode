@@ -13,7 +13,7 @@
 
 - The dish features spicy and umami notes.
 
-- It can be prepapred with any type of protein but the chef recommends shrimp.
+- It can be prepared with any type of protein but the chef recommends shrimp.
 
 - Time to cook: 20 minutes
 
