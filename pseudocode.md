@@ -9,9 +9,9 @@
 
 ```
 
-- The recipe was curated by a local Chef.
+- This recipe was curated by a local Chef.
 
-- The dish features spicy and umami notes.
+- This dish features spicy and umami notes.
 
 - It can be prepared with any type of protein but the chef recommends shrimp.
 
