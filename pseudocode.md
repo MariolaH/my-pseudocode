@@ -51,9 +51,22 @@
 ## FUNCTIONALITY:
 
 ---
+
 ```
 
-STEP 1 Preparing The Environment
+STEP 1 Check groceries
+
+Do I have all the ingredients?
+    If True
+        PROCEED
+    IF False
+        STOP
+
+
+```
+```
+
+STEP 2 Preparing The Environment
 
 
 Clean working space
@@ -68,7 +81,7 @@ let pan heat up for 2 mins
 
 ```
 
-STEP 2 Prepaping pan
+STEP 3 Prepaping pan
 
 add olive oil
 
@@ -79,7 +92,7 @@ Let olive oil heat up for 2 mins
 
 ```
 
-STEP 3 Protein
+STEP 4 Protein
 
 add shrimp
 
@@ -93,7 +106,7 @@ proceed
 
 ```
 
-Step 4 Vegetables
+Step 5 Vegetables
 
 add frozen veg
 
@@ -107,7 +120,7 @@ Proceed
 
 ```
 
-Step 5 Seasoning
+Step 6 Seasoning
 
 add Sriracha seasoning, salt and pepper
 
@@ -122,7 +135,7 @@ proceed
 ```
 
 ```
-Step 6 Carb
+Step 7 Carb
 
 add rice 
 
@@ -133,7 +146,7 @@ with spatula mix items
 ```
 ```
 
-Step 7 liquid seasoning
+Step 8 liquid seasoning
 
 add soy sauce
 
@@ -150,7 +163,7 @@ proceed
 ```
 ```
 
-Step 8 Egg
+Step 9 Egg
 
 move ingredients to half the pan
 
@@ -163,7 +176,7 @@ proceed
 ```
 ```
 
-Step 9. Combine
+Step 10 Combine
 
 with spatula combine all the contents of pan
 
@@ -173,7 +186,7 @@ proceed
 
 ```
 
-Step 10 Fry
+Step 11 Fry
 
 let ingredients cook for 2 mins
 
@@ -181,7 +194,7 @@ let ingredients cook for 2 mins
 
 ```
 
-Step 11 plate
+Step 12 plate
 
 turn off element
 
@@ -196,7 +209,7 @@ proceed
 ```
 ```
 
-Step 11 Enjoy
+Step 13 Enjoy
 
 Enjoy
 
@@ -217,6 +230,8 @@ START PROGRAM
     STEP 9
     STEP 10
     STEP 11
+    STEP 12
+    STEP 13
 
 END PROGRAM
 
