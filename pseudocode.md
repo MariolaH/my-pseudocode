@@ -56,43 +56,68 @@
 
 STEP 1 Check groceries
 
-Do I have all the ingredients?
-    If True
+    Do I have all the ingredients?
+        If True
+            PROCEED
+        IF False
+            STOP
+
+
+```
+```
+
+STEP 2 Prepare The Environment
+
+
+    IF Space === clean
         PROCEED
-    IF False
+    ELSE
+        STOP
+
+
+
+```
+```
+
+STEP 3 Turn stove on
+
+1. put pan on stove element
+
+2. turn stove on to medium
+
+3. let pan heat up for 2 mins
+
+
+
+
+```
+```
+
+STEP 4 Prepare pan
+
+1. IF hotPan === add olive oil
+        PROCEED
+    ELSE
         STOP
 
 
 ```
-```
-
-STEP 2 Preparing The Environment
-
-
-Clean working space
-
-put pan on stove element
-
-turn stove on to medium
-
-let pan heat up for 2 mins
 
 ```
 
-```
+STEP 5 Prepare Olive Oil
 
-STEP 3 Prepaping pan
-
-add olive oil
-
-Let olive oil heat up for 2 mins
+1. IF oliveOil === Hot
+        PROCEED
+   ELSE
+        STOP     
 
 
 ```
 
 ```
 
-STEP 4 Protein
+STEP 6 Protein
 
 add shrimp
 
@@ -106,7 +131,7 @@ proceed
 
 ```
 
-Step 5 Vegetables
+Step 7 Vegetables
 
 add frozen veg
 
@@ -120,7 +145,7 @@ Proceed
 
 ```
 
-Step 6 Seasoning
+Step 8 Seasoning
 
 add Sriracha seasoning, salt and pepper
 
@@ -135,7 +160,7 @@ proceed
 ```
 
 ```
-Step 7 Carb
+Step 9 Carb
 
 add rice 
 
@@ -146,7 +171,7 @@ with spatula mix items
 ```
 ```
 
-Step 8 liquid seasoning
+Step 10 liquid seasoning
 
 add soy sauce
 
@@ -163,7 +188,7 @@ proceed
 ```
 ```
 
-Step 9 Egg
+Step 11 Egg
 
 move ingredients to half the pan
 
@@ -176,7 +201,7 @@ proceed
 ```
 ```
 
-Step 10 Combine
+Step 12 Combine
 
 with spatula combine all the contents of pan
 
@@ -186,7 +211,7 @@ proceed
 
 ```
 
-Step 11 Fry
+Step 13 Fry
 
 let ingredients cook for 2 mins
 
@@ -194,7 +219,7 @@ let ingredients cook for 2 mins
 
 ```
 
-Step 12 plate
+Step 14 plate
 
 turn off element
 
@@ -209,9 +234,9 @@ proceed
 ```
 ```
 
-Step 13 Enjoy
+Step 15 Enjoy
 
-Enjoy
+    Enjoy
 
 ```
 
@@ -232,6 +257,8 @@ START PROGRAM
     STEP 11
     STEP 12
     STEP 13
+    STEP 14
+    STEP 15
 
 END PROGRAM
 
