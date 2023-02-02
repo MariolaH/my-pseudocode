@@ -40,6 +40,16 @@ with spatula mix items
 
 sample to see if seasoned adequately
 
+move ingredients to one side of pan
+
+place raw egg on empty side of pan
+
+scramble till no longer runny
+
+combine items
+
+fry for 2 mins
+
 move ingredients to plate
 
 enjoy!

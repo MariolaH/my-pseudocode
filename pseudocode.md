@@ -1,5 +1,5 @@
 # SHRIMP FRIED RICE  
-<img src='shrimp.jpeg' width="180" height="150">
+<img src='/workspace/my-pseudocode/img/shrimp.jpeg' width="180" height="150">
 
 ---  
 
@@ -15,13 +15,13 @@
 
 - It can be prepapred with any type of protein but the chef recommends shrimp.
 
-- Time to cook: 
+- Time to cook: 20 minutes
 
 ```
 
 ---
 
-## INIT: Variables for the recipe
+## INIT: Variables for the program
 
 ---
 
@@ -51,7 +51,7 @@ Dry Seasonings:
 
 ```
 
-COMBINE: wiht spatula
+COMBINE: with spatula
 
 
 ---
@@ -62,9 +62,9 @@ COMBINE: wiht spatula
 
 ```
 
-STEP 1 Check groceries
+STEP 1 CHECK GROCERIES
 
-    Do I have all the ingredients?
+    Does Chef have all the ingredients?
         If True
             PROCEED
         IF False
