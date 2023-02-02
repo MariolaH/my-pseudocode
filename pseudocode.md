@@ -252,7 +252,7 @@ STEP 14 PLATE
 
 STEP 15 ENJOY
 
-    Enjoy
+    Enjoy!
 
 ```
 
