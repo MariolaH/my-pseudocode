@@ -1,5 +1,5 @@
 # SHRIMP FRIED RICE  
-<img src='/workspace/my-pseudocode/img/shrimp.jpeg' width="180" height="150">
+<img src='./img/shrimp.jpeg' width="180" height="150">
 
 ---  
 
