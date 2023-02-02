@@ -66,7 +66,7 @@ STEP 1 Check groceries
 ```
 ```
 
-STEP 2 Prepare The Environment
+STEP 2 PREPARE ENVIRONMENT 
 
 
     IF Space === clean
@@ -79,13 +79,13 @@ STEP 2 Prepare The Environment
 ```
 ```
 
-STEP 3 Turn stove on
+STEP 3 TURN STOVE ON
 
-1. put pan on stove element
+    1. put pan on stove element
 
-2. turn stove on to medium
+    2. turn stove on to medium
 
-3. let pan heat up for 2 mins
+    3. let pan heat up for 2 mins
 
 
 
@@ -93,7 +93,7 @@ STEP 3 Turn stove on
 ```
 ```
 
-STEP 4 Prepare pan
+STEP 4 PAN
 
 1. IF hotPan === add olive oil
         PROCEED
@@ -105,7 +105,7 @@ STEP 4 Prepare pan
 
 ```
 
-STEP 5 Prepare Olive Oil
+STEP 5 OLIVE OIL
 
 1. IF oliveOil === Hot
         PROCEED
@@ -117,7 +117,7 @@ STEP 5 Prepare Olive Oil
 
 ```
 
-STEP 6 Protein
+STEP 6 PROTEIN
 
 add shrimp
 
@@ -131,7 +131,7 @@ proceed
 
 ```
 
-Step 7 Vegetables
+STEP 7 VEGETABLES
 
 add frozen veg
 
@@ -145,7 +145,7 @@ Proceed
 
 ```
 
-Step 8 Seasoning
+STEP 8 SEASONING
 
 add Sriracha seasoning, salt and pepper
 
@@ -160,7 +160,7 @@ proceed
 ```
 
 ```
-Step 9 Carb
+STEP 9 CARB
 
 add rice 
 
@@ -171,7 +171,7 @@ with spatula mix items
 ```
 ```
 
-Step 10 liquid seasoning
+STEP 10 LIQUID SEASONING
 
 add soy sauce
 
@@ -188,7 +188,7 @@ proceed
 ```
 ```
 
-Step 11 Egg
+STEP 11 EGG
 
 move ingredients to half the pan
 
@@ -201,7 +201,7 @@ proceed
 ```
 ```
 
-Step 12 Combine
+STEP 12 COMBINE
 
 with spatula combine all the contents of pan
 
@@ -211,7 +211,7 @@ proceed
 
 ```
 
-Step 13 Fry
+STEP 13 FRY
 
 let ingredients cook for 2 mins
 
@@ -219,7 +219,7 @@ let ingredients cook for 2 mins
 
 ```
 
-Step 14 plate
+STEP 14 PLATE
 
 turn off element
 
@@ -234,7 +234,7 @@ proceed
 ```
 ```
 
-Step 15 Enjoy
+STEP 15 ENJOY
 
     Enjoy
 
