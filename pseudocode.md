@@ -1,4 +1,5 @@
 # SHRIMP FRIED RICE  
+<img src='shrimp.jpeg' width="180" height="150">
 
 ---  
 
@@ -28,7 +29,7 @@
 
 - Chef
 - Working heat source, stove
-- Clean working space
+- Clean work space
 - Large plate: 1
 - Fork: 1
 - Large pan: 1
@@ -36,15 +37,22 @@
 - Raw defrosted deveined tail-off shrimp: 10
 - Frozen mixed vegetables: 0.5 cup
 - Cooked brown rice: 1 cup
+- Soy Sauce: 1 tablesppon
 - Olive oil: 2 tablespoons
+- Raw cracked egg: 1
+
+Dry Seasonings:
+
 - Sriracha Seasoning: 2 tablespons
 - Salt: 1 tablespoon
 - Pepper: 1 tablespoon
-- Soy sauce: 4 tablespoons
-- Raw cracked in bowl egg: 1
+
 
 
 ```
+
+COMBINE: wiht spatula
+
 
 ---
 
@@ -91,11 +99,14 @@ STEP 3 TURN STOVE ON
 
 
 ```
+
+
+
 ```
 
 STEP 4 PAN
 
-1. IF hotPan === add olive oil
+ IF panHot === add olive oil
         PROCEED
     ELSE
         STOP
@@ -107,10 +118,10 @@ STEP 4 PAN
 
 STEP 5 OLIVE OIL
 
-1. IF oliveOil === Hot
-        PROCEED
-   ELSE
-        STOP     
+    IF oliveOil === Hot
+            PROCEED
+    ELSE
+            STOP     
 
 
 ```
@@ -119,13 +130,13 @@ STEP 5 OLIVE OIL
 
 STEP 6 PROTEIN
 
-add shrimp
+    1. Add shrimp to pan 
 
-with spatula mix item
+    2. Mix with spatula 
 
-when shrimp starts to change color 
+    3. When shrimp changes from clear to white 
 
-proceed
+    4. proceed
 
 ```
 
@@ -133,79 +144,80 @@ proceed
 
 STEP 7 VEGETABLES
 
-add frozen veg
+    1. add frozen vegetables
 
-with spatula mix items
+    2. Mix with spatula 
 
-when frozen veg starts to soften 
+    3. When frozen vegetables starts to soften 
 
-Proceed
-
-```
+    Proceed
 
 ```
 
-STEP 8 SEASONING
+```
 
-add Sriracha seasoning, salt and pepper
+STEP 8 DRY SEASONING
 
-with spatula mix items
+    1. Add Dry seasonings
 
-taste
+    2. Mix with spatula
 
-if seasoned adequately
-
-proceed
+    IF taste === adequate
+        PROCEED
+    ELSE
+        STOP    
 
 ```
 
 ```
 STEP 9 CARB
 
-add rice 
+    1. add rice 
 
-cook for 2 mins
+    2. cook for 2 mins
 
-with spatula mix items
+    3. Combine with spatula
+
+    4. Proceed
 
 ```
 ```
 
 STEP 10 LIQUID SEASONING
 
-add soy sauce
+    1. add soy sauce
 
-cook for 2 mins
+    2. cook for 2 mins
 
-with spatula mix items
+    3. Mix with spatula
 
-taste 
-
-if seasoned adequately
-
-proceed
-
+    IF taste === adequate
+            PROCEED
+        ELSE
+            STOP  
 ```
 ```
 
 STEP 11 EGG
 
-move ingredients to half the pan
+    1. PLACE ingredients onto half the pan
 
-pour egg into empty half of pan
+    2. Pour egg into empty half of pan
 
-scramble till not runny 
+    3. Scramble till not runny 
 
-proceed
+    4. Proceed
 
 ```
 ```
 
 STEP 12 COMBINE
 
-with spatula combine all the contents of pan
+    IF ingredients === combined
+            PROCEED
+        ELSE
+            STOP 
 
-proceed
 
 ```
 
@@ -213,7 +225,11 @@ proceed
 
 STEP 13 FRY
 
-let ingredients cook for 2 mins
+
+    IF friedIngredients === 2 mins
+                PROCEED
+            ELSE
+                STOP 
 
 ```
 
@@ -221,15 +237,15 @@ let ingredients cook for 2 mins
 
 STEP 14 PLATE
 
-turn off element
+    1. turn off element
 
-take pan off element 
+    2. take pan off element 
 
-with spatual place ingredients onto plate
+    3. with spatual place ingredients onto plate
 
-place pan on cold stove element
+    4. place pan on cold stove element
 
-proceed         
+    5. proceed         
 
 ```
 ```
