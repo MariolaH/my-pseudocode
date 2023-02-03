@@ -28,10 +28,10 @@
 ```
 - Measure all ingredients using measuring spoons
 - Measuring utensils and bowls:
-        - 1 tablespoon
+        - [1 tablespoon
         - 0.5 cup
         - 6 small 4 oz bowls
-        - 3 soup bowls
+        - 3 soup bowls]
 - Place all measured ingredients in seperate bowls
 - Chef
 - Working heat source, stove
@@ -49,9 +49,9 @@
 
 Dry Seasonings:
 
-- Sriracha Seasoning: 2 tablespons
+- [Sriracha Seasoning: 2 tablespons
 - Salt: 1 tablespoon
-- Pepper: 1 tablespoon
+- Pepper: 1 tablespoon]
 
 COMBINE: with spatula
 
@@ -104,10 +104,12 @@ STEP 3 TURN STOVE ON
 
 STEP 4 PAN
 
- IF hotPan === True
-        PROCEED
- IF hotPan === False
-        STOP
+ WHILE (Pan is not hot)
+    Wait
+        END WHILE
+ 
+PROCEED
+
 
 ```
 ```
@@ -116,10 +118,12 @@ STEP 5 OLIVE OIL
 
     1. Add olive oil
 
-    IF hotOliveOil === True
-            PROCEED
-    IF hotOliveOil === False
-            STOP     
+    WHILE (Olive oil is not hot)
+        Wait
+            END WHILE
+ 
+    PROCEED
+         
 
 ```
 
@@ -127,13 +131,16 @@ STEP 5 OLIVE OIL
 
 STEP 6 PROTEIN
 
-    1. Add shrimp to pan 
+    1. Add shrimp to pan
 
-    2. Mix with spatula 
+    WHILE (Shrimp is not pink)
+        mix with spatula
+            END WHILE
 
-    3. When shrimp changes from clear to white 
+     PROCEED
 
-    4. PROCEED
+
+    
 
 ```
 
@@ -143,11 +150,11 @@ STEP 7 VEGETABLES
 
     1. add frozen vegetables
 
-    2. Mix with spatula 
-
-    3. When frozen vegetables starts to soften 
-
-    4. PROCEED
+    WHILE (Frozen vegetables are not soft)
+        Wait
+            END WHILE
+ 
+    PROCEED 
 
 ```
 
@@ -277,16 +284,3 @@ START PROGRAM
 END PROGRAM
 
 ```
-
-
-
-Like in step 6: While shrimp is not pink, mix with spatula
-Step 4: While pan is not hot, wait
-
-Can you take what you’ve written and make them more code-like? Any loops you can find or statements like “WHILE x, do Y”? Or any repeatable things that could be thought of as functional?
-Like in step 6: While shrimp is not pink, mix with spatula
-Step 4: While pan is not hot, wait
-Could mix with spatula be thought of as it’s own function (repeated block of code in a program you’d be writing)
-This is a very good pseudocode for the procedural parts and the object parts of the code.
-Are there opportunities to think about the different things you might need? Like a measure function to get the right measurements of ingredients? You could think about trying to identify repeated functionalities in your code that could be it’s own thing.
-Otherwise I think you’ve thought through things well, but this is a list of things I think that could take it to the next level.
