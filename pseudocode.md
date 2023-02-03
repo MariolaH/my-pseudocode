@@ -32,7 +32,7 @@
         - 0.5 cup
         - 6 small 4 oz bowls
         - 3 soup bowls]
-- Place all measured ingredients in seperate bowls
+- Place all measured ingredients in separate bowls
 - Chef
 - Working heat source, stove
 - Clean work space
@@ -49,7 +49,7 @@
 
 Dry Seasonings:
 
-- [Sriracha Seasoning: 2 tablespons
+- [Sriracha Seasoning: 2 tablespoons
 - Salt: 1 tablespoon
 - Pepper: 1 tablespoon]
 
@@ -218,7 +218,7 @@ COMBINE: with spatula
 
     |FUNCTION ENJOY!
 
-        IF meal === satified
+        IF meal === satisfied
             PROCEED
                 ELSE write a bad review
                     END 
