@@ -56,10 +56,6 @@ Dry Seasonings:
 COMBINE: with spatula
 
 ```
-
-
-
-
 ---
 
 ## FUNCTIONALITY:
@@ -68,23 +64,153 @@ COMBINE: with spatula
 
 ```
 
-STEP 1 CHECK GROCERIES
+FUNCTION MEASURE 
+
+
+FUNCTION MIX
+
+    WHILE ingredient/ingredients === cooking
+        mix with spatula
+
+
+FUNCTION CHECK GROCERIES
 
     Does Chef have all the ingredients?
         If True
             PROCEED
         IF False
-            STOP       
+            END 
+
+FUNCTION MEASURE 
+
+
+
+FUNCTION PREPARE ENVIRONMENT
+
+    IF cleanSpace === True
+        PROCEED
+    IF cleanSpace === False
+        END
+
+FUNCTION PAN
+
+    WHILE (Pan is not hot)
+        Wait
+    END WHILE
+        PROCEED
+
+FUNCTION OLIVE OIL
+
+    WHILE (Olive oil is not hot)
+        Wait
+            END WHILE
+ 
+    PROCEED
+         
+
+FUNCTION PROTEIN
+
+     WHILE (Shrimp is not pink)
+        mix with spatula
+            END WHILE
+
+     PROCEED
+
+FUNCTION VEGETABLES
+
+    WHILE (Frozen vegetables are not soft)
+        Wait
+            END WHILE
+ 
+    PROCEED
+
+
+
+ FUNCTION TASTE
+
+    IF taste === adequate
+            PROCEED
+        ELSE add more seasoning
+            END     
+
+
+FUNCTION EGG
+
+        IF bowl < clean
+            THEN get clean bowl
+                END
+       
+        WHILE bowl > 1  
+            THEN crack 1 egg into bowl
+                END
+
+        WHILE half of pan < empty
+            THEN move ingredients to half the pan
+                END         
+
+         WHILE half pan > empty
+            THEN pour egg onto pan
+                end       
+
+    FUNCTION MIX
+
+        IF scrambled egg < runny
+            END    
+
+    FUNCTION COMBINE
+
+        IF combineIngredients === True
+                PROCEED
+        IF combineIngredients === False
+                END 
+
+    FUNCTION FRY
+
+         IF friedIngredients === 2 mins
+                PROCEED
+            ELSE
+                END
+
+    FUNCTION
+
+
+    FUNCTION ENJOY!
+
+        IF meal === satified
+            PROCEED
+                ELSE write a bad review
+                    END 
+                    
+    
+    
+
+            
+
+
+```
+
+---
+
+## PROCEDURE:
+
+---
+
+```
+
+STEP 1 CHECK GROCERIES
+
+   FUNCTION CHECK GROCERIES 
+
+   PROCEED      
 
 ```
 ```
 
 STEP 2 PREPARE ENVIRONMENT 
 
-    IF cleanSpace === True
-        PROCEED
-    IF cleanSpace === False
-        STOP
+    FUNCTION PREPARE ENVIRONMENT
+
+    PROCEED
 
 ```
 ```
@@ -94,6 +220,8 @@ STEP 3 TURN STOVE ON
     1. Put pan on stove element
 
     2. Turn stove on to medium
+
+    PROCEED
     
 
 ```
@@ -104,11 +232,9 @@ STEP 3 TURN STOVE ON
 
 STEP 4 PAN
 
- WHILE (Pan is not hot)
-    Wait
-        END WHILE
- 
-PROCEED
+    FUNCTION PAN
+
+    PROCEED
 
 
 ```
@@ -118,11 +244,9 @@ STEP 5 OLIVE OIL
 
     1. Add olive oil
 
-    WHILE (Olive oil is not hot)
-        Wait
-            END WHILE
- 
-    PROCEED
+   FUNCTION OLIVE OIL
+
+   PROCEED
          
 
 ```
@@ -133,13 +257,9 @@ STEP 6 PROTEIN
 
     1. Add shrimp to pan
 
-    WHILE (Shrimp is not pink)
-        mix with spatula
-            END WHILE
+    FUNCTION PROTEIN
 
-     PROCEED
-
-
+    PROCEED
     
 
 ```
@@ -150,11 +270,9 @@ STEP 7 VEGETABLES
 
     1. add frozen vegetables
 
-    WHILE (Frozen vegetables are not soft)
-        Wait
-            END WHILE
- 
-    PROCEED 
+    FUNCTION VEGETABLES
+
+    PROCEED
 
 ```
 
@@ -166,12 +284,11 @@ STEP 8 DRY SEASONING
 
     1. Add Dry seasonings
 
-    2. Mix with spatula
+    FUNCTION MIX
 
-    IF taste === adequate
-        PROCEED
-    ELSE
-        STOP    
+    FUNCTION TASTE
+
+    PROCEED
 
 ```
 
@@ -182,7 +299,7 @@ STEP 9 CARB
 
     2. cook for 2 mins
 
-    3. Combine with spatula
+    FUNCTION MIX
 
     4. PROCEED
 
@@ -195,34 +312,28 @@ STEP 10 LIQUID SEASONING
 
     2. cook for 2 mins
 
-    3. Mix with spatula
+    FUNCTION MIX
 
-    IF taste === adequate
-            PROCEED
-        ELSE
-            STOP  
+    FUNCTION TASTE  
+
+    PROCEED
 ```
 ```
 
 STEP 11 EGG
 
-    1. PLACE ingredients onto half the pan
+    FUNCTION EGG
 
-    2. Pour egg into empty half of pan
-
-    3. Scramble till not runny 
-
-    4. PROCEED
+    PROCEED
 
 ```
 ```
 
 STEP 12 COMBINE
 
-    IF combineIngredients === True
-            PROCEED
-    IF combineIngredients === False
-            STOP 
+    FUNCTION COMBINE
+
+    PROCEED
 
 ```
 
@@ -231,10 +342,9 @@ STEP 12 COMBINE
 STEP 13 FRY
 
 
-    IF friedIngredients === 2 mins
-                PROCEED
-            ELSE
-                STOP 
+   FUNCTION FRY
+
+   PROCEED
 
 ```
 
@@ -257,7 +367,7 @@ STEP 14 PLATE
 
 STEP 15 ENJOY
 
-    Enjoy!
+    FUNCTION ENJOY!
 
 ```
 
