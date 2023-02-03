@@ -66,11 +66,12 @@ COMBINE: with spatula
 
 FUNCTION MEASURE 
 
+    Using appropriate measuring utensil
 
-FUNCTION MIX
+    WHILE (bowl > 1)
+        measure ingredient into bowl
+                END
 
-    WHILE ingredient/ingredients === cooking
-        mix with spatula
 
 
 FUNCTION CHECK GROCERIES
@@ -78,61 +79,86 @@ FUNCTION CHECK GROCERIES
     Does Chef have all the ingredients?
         If True
             PROCEED
-        IF False
-            END 
-
-FUNCTION MEASURE 
-
+                IF False
+                    END 
 
 
 FUNCTION PREPARE ENVIRONMENT
 
     IF cleanSpace === True
         PROCEED
-    IF cleanSpace === False
-        END
+            IF cleanSpace === False
+                END
+
+FUNCTION MIX
+
+    WHILE (ingredient/ingredients === cooking)
+        mix with spatula
+            END
+
+
 
 FUNCTION PAN
 
     WHILE (Pan is not hot)
         Wait
-    END WHILE
-        PROCEED
+            END WHILE
+                PROCEED
 
 FUNCTION OLIVE OIL
+
+    Add olive oil
 
     WHILE (Olive oil is not hot)
         Wait
             END WHILE
- 
-    PROCEED
+                PROCEED
          
 
 FUNCTION PROTEIN
 
+    Add shrimp to pan
+
      WHILE (Shrimp is not pink)
         mix with spatula
             END WHILE
-
-     PROCEED
+                PROCEED
 
 FUNCTION VEGETABLES
+
+    Add frozen vegetables
 
     WHILE (Frozen vegetables are not soft)
         Wait
             END WHILE
- 
-    PROCEED
+                PROCEED
 
+FUNCTION DRY SEASONING
 
+    ARRAY spices = [2 tbs Sriracha Seasoning, 1 tbs Salt, 1 tbs Pepper]
+
+    WHILE (the seasonings are in a bowl)
+        ADD dry seasoning to pan
+            END WHILE
+
+FUNCTION RICE
+
+    WHILE (the rice is in a bowl)
+        ADD rice to pan
+            END WHILE
+
+FUNCTION DRY SEASONING
+
+    WHILE (the soy sauce is in a bowl)
+        ADD soy sauce to pan
+            END WHILE            
 
  FUNCTION TASTE
 
     IF taste === adequate
             PROCEED
-        ELSE add more seasoning
-            END     
-
+                ELSE add more seasoning
+                     END     
 
 FUNCTION EGG
 
@@ -161,17 +187,15 @@ FUNCTION EGG
 
         IF combineIngredients === True
                 PROCEED
-        IF combineIngredients === False
-                END 
+                    IF combineIngredients === False
+                         END 
 
     FUNCTION FRY
 
-         IF friedIngredients === 2 mins
+         IF fryIngredients === 2 mins
                 PROCEED
-            ELSE
-                END
-
-    FUNCTION
+                    ELSE
+                         END
 
 
     FUNCTION ENJOY!
@@ -242,11 +266,11 @@ STEP 4 PAN
 
 STEP 5 OLIVE OIL
 
-    1. Add olive oil
+    FUNCTION MEASURE 
 
-   FUNCTION OLIVE OIL
+    FUNCTION OLIVE OIL
 
-   PROCEED
+    PROCEED
          
 
 ```
@@ -255,9 +279,13 @@ STEP 5 OLIVE OIL
 
 STEP 6 PROTEIN
 
-    1. Add shrimp to pan
+    FUNCTION MEASURE
 
     FUNCTION PROTEIN
+
+    FUNCTION MIX
+
+    FUNCTION FRY
 
     PROCEED
     
@@ -268,9 +296,13 @@ STEP 6 PROTEIN
 
 STEP 7 VEGETABLES
 
-    1. add frozen vegetables
+    FUNCTION MEASURE
 
     FUNCTION VEGETABLES
+
+    FUNCTION MIX
+
+    FUNCTION FRY
 
     PROCEED
 
@@ -280,26 +312,30 @@ STEP 7 VEGETABLES
 
 STEP 8 DRY SEASONING
 
-    ARRAY spices = [2 tbs Sriracha Seasoning, 1 tbs Salt, 1 tbs Pepper]
-
-    1. Add Dry seasonings
+    FUNCTION DRY SEASONING
 
     FUNCTION MIX
 
     FUNCTION TASTE
+
+    FUNCTION FRY
 
     PROCEED
 
 ```
 
 ```
-STEP 9 CARB
+STEP 9 RICE
 
-    1. add rice 
+    FUNCTION MEASURE
 
-    2. cook for 2 mins
+    FUNCTION RICE
 
-    FUNCTION MIX
+    FUNCTION MIX 
+
+    FUNCTION FRY
+
+    FUNCTION MIX    
 
     4. PROCEED
 
@@ -308,11 +344,13 @@ STEP 9 CARB
 
 STEP 10 LIQUID SEASONING
 
-    1. add soy sauce
+    FUNCTION MEASURE
 
-    2. cook for 2 mins
+    FUNCTION DRY SEASONING
 
     FUNCTION MIX
+    
+    FUNCTION FRY
 
     FUNCTION TASTE  
 
