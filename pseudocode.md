@@ -26,7 +26,13 @@
 ---
 
 ```
-
+- Measure all ingredients using measuring spoons
+- Measuring utensils and bowls:
+        - 1 tablespoon
+        - 0.5 cup
+        - 6 small 4 oz bowls
+        - 3 soup bowls
+- Place all measured ingredients in seperate bowls
 - Chef
 - Working heat source, stove
 - Clean work space
@@ -37,7 +43,7 @@
 - Raw defrosted deveined tail-off shrimp: 10
 - Frozen mixed vegetables: 0.5 cup
 - Cooked brown rice: 1 cup
-- Soy Sauce: 1 tablesppon
+- Soy Sauce: 1 tablespoon
 - Olive oil: 2 tablespoons
 - Raw cracked egg: 1
 
@@ -148,6 +154,8 @@ STEP 7 VEGETABLES
 ```
 
 STEP 8 DRY SEASONING
+
+    ARRAY spices = [2 tbs Sriracha Seasoning, 1 tbs Salt, 1 tbs Pepper]
 
     1. Add Dry seasonings
 
@@ -269,3 +277,16 @@ START PROGRAM
 END PROGRAM
 
 ```
+
+
+
+Like in step 6: While shrimp is not pink, mix with spatula
+Step 4: While pan is not hot, wait
+
+Can you take what you’ve written and make them more code-like? Any loops you can find or statements like “WHILE x, do Y”? Or any repeatable things that could be thought of as functional?
+Like in step 6: While shrimp is not pink, mix with spatula
+Step 4: While pan is not hot, wait
+Could mix with spatula be thought of as it’s own function (repeated block of code in a program you’d be writing)
+This is a very good pseudocode for the procedural parts and the object parts of the code.
+Are there opportunities to think about the different things you might need? Like a measure function to get the right measurements of ingredients? You could think about trying to identify repeated functionalities in your code that could be it’s own thing.
+Otherwise I think you’ve thought through things well, but this is a list of things I think that could take it to the next level.
