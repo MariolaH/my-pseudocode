@@ -69,7 +69,8 @@ COMBINE: with spatula
     Using appropriate measuring utensil
 
     WHILE (bowl > 1)
-        measure ingredient into bowl
+        measure ingredient(s) into bowl
+            ELSE get a bowl
                 END
 
 
@@ -79,7 +80,8 @@ COMBINE: with spatula
         If True
             PROCEED
                 IF False
-                    END 
+                    Get groceries
+                        END 
 
 
 |FUNCTION PREPARE ENVIRONMENT
@@ -87,28 +89,24 @@ COMBINE: with spatula
     IF cleanSpace === True
         PROCEED
             IF cleanSpace === False
-                END
+                clean space
+                    END
 
 
 |FUNCTION MIX
 
-    WHILE (ingredient/ingredients === cooking)
-        mix with spatula
-            END
+    If (ingredient(s)Combined === True)
+        PROCEED
+            If (ingredient(s)Combined === False)
+                END
 
 
 |FUNCTION FRY
 
-         IF fryIngredients === 2 mins
-                PROCEED
-                    ELSE
+         WHILE (fryIngredients < 2 mins cooking)
+                Wait
+                    ELSE let cook longer
                          END      
-
-
- |FUNCTION MIX
-
-        IF scrambled egg < runny
-            END  
 
 
  |FUNCTION TASTE
@@ -142,7 +140,7 @@ COMBINE: with spatula
     Add shrimp to pan
 
      WHILE (Shrimp is not pink)
-        mix with spatula
+        Mix with spatula
             END WHILE
                 PROCEED
 
@@ -168,12 +166,12 @@ COMBINE: with spatula
 
 |FUNCTION RICE
 
-    WHILE (the rice is in a bowl)
+    WHILE (the bowl is full with rice)
         ADD rice to pan
             END WHILE
 
 
-|FUNCTION DRY SEASONING
+|FUNCTION SOY SAUCE
 
     WHILE (the soy sauce is in a bowl)
         ADD soy sauce to pan
@@ -194,9 +192,13 @@ COMBINE: with spatula
             THEN move ingredients to half the pan
                 END         
 
-         WHILE half pan > empty
+         WHILE half pan === empty
             THEN pour egg onto pan
-                end       
+                end   
+
+        IF scrambled egg < runny
+            THEN mix
+                END      
 
 
     |FUNCTION COMBINE
@@ -358,11 +360,11 @@ STEP 9 RICE
 ```
 ```
 
-STEP 10 LIQUID SEASONING
+STEP 10 SOY SAUCE
 
     FUNCTION MEASURE
 
-    FUNCTION DRY SEASONING
+    FUNCTION SOY SAUCE
 
     FUNCTION MIX
     
