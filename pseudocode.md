@@ -64,7 +64,7 @@ COMBINE: with spatula
 
 ```
 
-FUNCTION MEASURE 
+|FUNCTION MEASURE 
 
     Using appropriate measuring utensil
 
@@ -73,8 +73,7 @@ FUNCTION MEASURE
                 END
 
 
-
-FUNCTION CHECK GROCERIES
+|FUNCTION CHECK GROCERIES
 
     Does Chef have all the ingredients?
         If True
@@ -83,29 +82,52 @@ FUNCTION CHECK GROCERIES
                     END 
 
 
-FUNCTION PREPARE ENVIRONMENT
+|FUNCTION PREPARE ENVIRONMENT
 
     IF cleanSpace === True
         PROCEED
             IF cleanSpace === False
                 END
 
-FUNCTION MIX
+
+|FUNCTION MIX
 
     WHILE (ingredient/ingredients === cooking)
         mix with spatula
             END
 
 
+|FUNCTION FRY
 
-FUNCTION PAN
+         IF fryIngredients === 2 mins
+                PROCEED
+                    ELSE
+                         END      
+
+
+ |FUNCTION MIX
+
+        IF scrambled egg < runny
+            END  
+
+
+ |FUNCTION TASTE
+
+    IF taste === adequate
+            PROCEED
+                ELSE add more seasoning
+                     END 
+
+
+|FUNCTION PAN
 
     WHILE (Pan is not hot)
         Wait
             END WHILE
                 PROCEED
 
-FUNCTION OLIVE OIL
+
+|FUNCTION OLIVE OIL
 
     Add olive oil
 
@@ -115,7 +137,7 @@ FUNCTION OLIVE OIL
                 PROCEED
          
 
-FUNCTION PROTEIN
+|FUNCTION PROTEIN
 
     Add shrimp to pan
 
@@ -124,7 +146,8 @@ FUNCTION PROTEIN
             END WHILE
                 PROCEED
 
-FUNCTION VEGETABLES
+
+|FUNCTION VEGETABLES
 
     Add frozen vegetables
 
@@ -133,7 +156,8 @@ FUNCTION VEGETABLES
             END WHILE
                 PROCEED
 
-FUNCTION DRY SEASONING
+
+|FUNCTION DRY SEASONING
 
     ARRAY spices = [2 tbs Sriracha Seasoning, 1 tbs Salt, 1 tbs Pepper]
 
@@ -141,26 +165,22 @@ FUNCTION DRY SEASONING
         ADD dry seasoning to pan
             END WHILE
 
-FUNCTION RICE
+
+|FUNCTION RICE
 
     WHILE (the rice is in a bowl)
         ADD rice to pan
             END WHILE
 
-FUNCTION DRY SEASONING
+
+|FUNCTION DRY SEASONING
 
     WHILE (the soy sauce is in a bowl)
         ADD soy sauce to pan
-            END WHILE            
+            END WHILE                 
 
- FUNCTION TASTE
 
-    IF taste === adequate
-            PROCEED
-                ELSE add more seasoning
-                     END     
-
-FUNCTION EGG
+|FUNCTION EGG
 
         IF bowl < clean
             THEN get clean bowl
@@ -178,27 +198,23 @@ FUNCTION EGG
             THEN pour egg onto pan
                 end       
 
-    FUNCTION MIX
 
-        IF scrambled egg < runny
-            END    
-
-    FUNCTION COMBINE
+    |FUNCTION COMBINE
 
         IF combineIngredients === True
                 PROCEED
                     IF combineIngredients === False
                          END 
 
-    FUNCTION FRY
 
-         IF fryIngredients === 2 mins
-                PROCEED
-                    ELSE
-                         END
+    |FUNCTION PLATE
+
+        WHILE (plate === empty)
+            add ingredients
+                END                     
 
 
-    FUNCTION ENJOY!
+    |FUNCTION ENJOY!
 
         IF meal === satified
             PROCEED
@@ -337,7 +353,7 @@ STEP 9 RICE
 
     FUNCTION MIX    
 
-    4. PROCEED
+    PROCEED
 
 ```
 ```
@@ -394,11 +410,9 @@ STEP 14 PLATE
 
     2. take pan off element 
 
-    3. with spatual place ingredients onto plate
+    FUNCTION PLATE
 
-    4. place pan on cold stove element
-
-    5. PROCEED        
+    PROCEED        
 
 ```
 ```
